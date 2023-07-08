@@ -14,7 +14,7 @@
       This should be the same across all pages.
      -->
     <link rel="icon" href="./assets/images/1311.png" />
-		<title>Unemployables Portfolio</title>
+		<title>Aaron Hardy's Portfolio</title>
     <meta name="description" content="A portfolio template for the Unemployables community.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -27,18 +27,33 @@
 	<body>
     <!-- NAVBAR -->
     <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
+      
         <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">Portfolio Title</span>
+        <label class="ui-switch">
+          <input type="checkbox" id="switch" onclick="darkMode()" >
+          <div class="slider">
+            <div class="circle"></div>
+          </div>
+        </label>
+        
+      
+
+        
          <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <a class="button" href="mailto:whitevans.eth@gmail.com">
-          <span class="button-text">Contact Me</span>
+        <a class="button" href="mailto:aaronhardyofficial@gmail.com">
+          <span class="button-text">Contact Me
+            
+          </span>
+          
         </a>
+        
       </a>
+      
     </div>
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
+      
 
       <!-- PORTFOLIO HEADER -->
       <div id="portfolio-header">
@@ -65,12 +80,12 @@
           -->
         <div id="portfolio-header-text-container">
             <div class="header-text">
-              <span class="main-title">Hey, I'm @ndoherty_eth.</span>
-              <div class="body-text">I’m a freelance designer and developer who aims to help other creatives build out their portfolios, skillset, and businesses.</div>
+              <span class="main-title">Oh Hello. I'm Aaron Hardy.</span>
+              <div class="body-text">I am a front-end developer inspired to learn new things from my failures and mistakes as a developer and looking into gaining more knowledge of back-end developing.</div>
             </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Check out my projects</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            <a class="button" href="./project-pages/project1.html">
+              <span class="button-text">Check out my projects</span>
+              <!--<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>-->
             </a>
         </div>
       </div>
@@ -93,7 +108,7 @@
       <!-- PROJECTS / MY WORK SECTION -->
       <div id="my-work-section">
         <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">My Work / My Projects</span>
+        <span class="subheader-text">My Projects</span>
 
         <div class="projects-container">
           <!-- 
@@ -124,9 +139,9 @@
               <div class="subheader-text project-title">Project Name</div>
               <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
+            <a class="button" href="./project-pages/project1.html">
               <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              <!--<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>-->
             </a>
           </div>
           <div class="project-card">
@@ -135,9 +150,9 @@
               <div class="subheader-text project-title">Project Name</div>
               <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
+            <a class="button" href="./project-pages/project2.html">
               <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+             <!-- <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>-->
             </a>
           </div>
           <div class="project-card">
@@ -146,42 +161,26 @@
               <div class="subheader-text project-title">Super Long Project Name That Should be Hidden</div>
               <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
+            <a class="button" href="./project-pages/project3.html">
               <span class="button-text">Read More</span>
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              <!--<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>-->
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/sketchbook.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Super Long Project Name That Should be Hidden</div>
+              <div class="body-text project-card-text">Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium</div>
+            </div>
+            <a class="button" href="./project-pages/project4.html">
+              <span class="button-text">Read More</span>
+              <!--<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>-->
             </a>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- FOOTER -->
-    <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
-
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
-        <image src="./assets/icons/mail.svg" class="footer-icon"/>
-      </a>
-    </div>
 
 	</body>
 </html>
