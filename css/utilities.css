@@ -11,6 +11,11 @@ body{
   border-color: white;
  }
 
+ .dark-mode #my-work-link{
+  color: white;
+  border-color: white;
+ }
+
 /* Icons */
 
 .right-arrow-icon {
