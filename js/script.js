@@ -19,17 +19,17 @@ function darkMode() {
   if (element.classList.contains('dark-mode')) {
     localStorage.setItem('theme', 'dark-mode');
     // Switch to the dark mode image
-    document.querySelector('.portfolio-header-image').src = './assets/images/HornTorus(1).png';
+    document.querySelector('.portfolio-header-image').src = './assets/images/AaronHardy-02.png';
   } else {
     localStorage.removeItem('theme');
     // Switch to the light mode image
-    document.querySelector('.portfolio-header-image').src = './assets/images/Horntorusblack1.png';
+    document.querySelector('.portfolio-header-image').src = './assets/images/AaronHardyLogo-01.png';
   }
 }
 
 // Set the initial image based on the theme
 if (theme === 'dark-mode') {
-  document.querySelector('.portfolio-header-image').src = './assets/images/HornTorus(1).png';
+  document.querySelector('.portfolio-header-image').src = './assets/images/AaronHardy-02.png';
 } else {
-  document.querySelector('.portfolio-header-image').src = './assets/images/Horntorusblack1.png';
+  document.querySelector('.portfolio-header-image').src = './assets/images/AaronHardyLogo-01.png';
 }
