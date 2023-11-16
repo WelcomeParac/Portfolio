@@ -21,6 +21,11 @@ body {
 .main-title {
   font-size: 40px;
   font-weight: 700;
+  
+}
+
+.aboutmetext {
+  font-size: 25px;
 }
 
 .aaron{
